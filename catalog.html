@@ -6,11 +6,12 @@
     <link rel="stylesheet" type="text/css" href="./css/style.css" >
   </head>
   <body>
-    <header class="main-header">
-    	<div class="container">
-        <a href="#"><img src="/" alt="Логотип"></a>
-    		<nav class="main-menu">
-    		    
+    <header class="main-header container">
+    	
+        <div class="logo-block">
+    		    <a href="#"><img src="/" alt="Логотип"></a>
+        </div> 
+        <div class="menu-block">
     			<ul>
     			    <li>
     					<a href="#">Информация</a>
@@ -28,20 +29,25 @@
     					<a href="#">Контакты</a>
     				</li>
     			</ul>	
-    		</nav>
+    		</div>
     		<div class="user-block">
     			<a class="login" href="#">Вход</a>				
-       		</div>
-    	</div>
+       	</div>
     </header>
-    <main class="conteiner">
-        <h1>Средства для ухода</h1>
-    	<div class="breadcrumbs">
-    	    <a href="#">Главная</a>
-    	    <a href="#">Магазин</a>
-    	    <span>Средства для ухода</span>
-     	</div>   
-     	<form action="#" method="post" name="manufacturers-and-produkts">
+
+    
+    <main class="conteiner clearfix">
+        <div class="catalog-menu">
+            <h1>Средства для ухода</h1>
+    	      <div class="breadcrumbs">
+    	          <a href="#">Главная</a>
+    	          <a href="#">Магазин</a>
+    	          <span>Средства для ухода</span>
+     	      </div>   
+        </div>
+      
+      <div class="catalog-form">
+     	<form action="#" method="get" name="manufacturers-and-produkts">
      	   <div class="manufacturers">	 
            <h2>Производители:</h2>
               
@@ -69,7 +75,7 @@
                     <input type="checkbox" checked name="manufacturer" id="manufacturer-6">  
                 <label for="manufacturer-6">American Crew</label>
             </div>
-          </div>  
+         </div>  
         <div class="product-group">
         	<h2>Группы товаров:</h2>
         	<div class="product-group1">
@@ -93,44 +99,45 @@
         </div>
         <button>Показать</button>
       </form>
+      </div>
       
       	<div class="catalog-items">
-      	    <article class="item1">
+      	    <article class="item">
       	        <img src="./img/Layer 1.png" alt="Набор для путешествий">
       	        <h3>Набор для путешествий</h3>
       	        <h3>"Baxter of California"</h3>
       	        <p>2900 руб</p>
       	        <a href="#">Купить</a>      	  
       	    </article>
-      	    <article class="item2">
+      	    <article class="item">
       	        <img src="./img/Layer 2.png" alt="Увлажняющий кондиционер">
       	        <h3>Увлажняющий кондиционер</h3>
       	        <h3>"Baxter of California"</h3>
       	        <p>750 руб</p>
       	        <a href="#">Купить</a> 
       	    </article>
-      	    <article class="item3">
+      	    <article class="item">
       	        <img src="./img/Layer 3.png" alt="Гель для волос">
       	        <h3>Гель для волос</h3>
       	        <h3>"Suavecito"</h3>
       	        <p>290 руб</p>
       	        <a href="#">Купить</a> 
       	    </article>
-      	    <article class="item4">
+      	    <article class="item">
       	        <img src="./img/Layer 4.png" alt="Глина для укладки волос">
       	        <h3>Глина для укладки волос</h3>
       	        <h3>"American crew"</h3>
       	        <p>500 руб</p>
       	        <a href="#">Купить</a> 
       	    </article>
-      	    <article class="item5">
+      	    <article class="item">
       	        <img src="./img/Layer 5.png" alt="Гель для волос">
       	        <h3>Гель для волос</h3>
       	        <h3>"American crew"</h3>
       	        <p>300 руб</p>
       	        <a href="#">Купить</a> 
       	    </article>
-      	    <article class="item6">
+      	    <article class="item">
       	        <img src="./img/Layer 6.png" alt="Набор для бритья">
       	        <h3>Набор для бритья</h3>
       	        <h3>"Baxter of California"</h3>
@@ -139,15 +146,16 @@
       	    </article>
       	</div>
       
-       <div class="transition">
+       <div class="catalog-transition">
            <a href="#">1</a>
            <a href="#">2</a>
            <a href="#">3</a>
            <a href="#">4</a>
        </div>
     </main>
+
     <footer class="main-footer">
-    	<div class="conteiner">
+    	<div class="conteiner clearfix">
     		<section class="footer-contacts">
     			Барбершоп "Бородинский"<br>
     			Адрес: г.Санкт-Петербург, ул.Б.Конюшенная, д.19/8<br>

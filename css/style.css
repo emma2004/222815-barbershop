@@ -4,6 +4,7 @@ body {
 	color: #000000;
 	font-weight: normal;
 	font-family: PTSans, sans-serif;
+	box-sizing: border-box;
 }
 
 h1 {
@@ -21,3 +22,109 @@ h2 {
 	font-weight: bold;
 	font-family: PTSans, sans-serif;	
 }
+
+li {
+	list-style-type: none;
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.main-header {
+	margin-bottom: 55px;
+	font-size: 0;
+}
+
+.logo-block {
+	width: 140px;
+	margin-right: 10px;
+	display: inline-block;
+}
+
+.menu-block {
+    width: 620px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.user-block {
+    width: 140px;
+    margin-left: 10px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.catalog-menu {
+	width: 700px;
+	margin-bottom: 55px;
+	padding-left: 0px;
+}
+
+.catalog-form {
+	width: 220px;
+	margin-right: 10px;
+	float: left;
+}
+
+.catalog-items {
+	width: 700px;
+	margin-left: 10px;
+	margin-bottom: 40px;
+	float: left;
+}
+
+.catalog-transition {
+	width: 220px;
+	margin-left: 240px;
+	margin-bottom: 45px;
+}
+
+.main-footer {
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+.footer-contacts {
+	float: left; 
+	width: 320px;
+	margin-right: 60px;
+}
+
+.footer-social {
+	float:left;
+	width: 180px;
+}
+
+.footer-copiright {
+	float: right;
+	width: 180px;
+}
+
+/*catalog-item*/
+.product {
+   width: 940px;
+   margin-bottom: 45px;
+}
+
+.pic-product {
+	width: 480px;
+	float: left;
+}
+
+.description-product {
+	width: 400px;
+	margin-left: 60px;
+	float: left;
+}
+
