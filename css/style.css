@@ -58,6 +58,10 @@ li {
     font-size: 16px;
 }
 
+.menu-block li {
+	display: inline-block;
+}
+
 .user-block {
     width: 140px;
     margin-left: 10px;
@@ -71,23 +75,42 @@ li {
 	padding-left: 0px;
 }
 
+.shop {
+    width: 940px;
+
+}
+
 .catalog-form {
 	width: 220px;
-	margin-right: 10px;
+	margin-right: 20px;
 	float: left;
 }
 
-.catalog-items {
-	width: 700px;
-	margin-left: 10px;
-	margin-bottom: 40px;
+.manufacturers {
+	margin-bottom: 50px;
+}
+
+.item {
+	width: 220px;
+	margin-right: 20px;
 	float: left;
+}
+
+.item:nth-child(3),
+.item:nth-child(6) {
+	margin-right: 0;
+}
+
+.item img {
+	width: 220px;
+	height: 165px;
 }
 
 .catalog-transition {
 	width: 220px;
 	margin-left: 240px;
 	margin-bottom: 45px;
+	padding-top: 40px;
 }
 
 .main-footer {
@@ -104,27 +127,51 @@ li {
 .footer-social {
 	float:left;
 	width: 180px;
+	margin-right: 220px;
 }
 
 .footer-copiright {
 	float: right;
-	width: 180px;
+	width: 160px;
 }
 
 /*catalog-item*/
+.catalog-menu {
+	width: 700px;
+	margin-bottom: 55px;
+}
+
 .product {
    width: 940px;
    margin-bottom: 45px;
 }
 
 .pic-product {
-	width: 480px;
+	width: 460px;
+	margin-right: 80px;
 	float: left;
+
 }
+
+.main-pic-product {
+	width: 460px;
+	height: 500px;
+}
+
+.other-pic-product {
+	width: 140px;
+	height: 150px;
+	display: inline-block;
+	margin-right: 16px;
+   }
+
+.other-pic-product:last-child {
+	margin-right: 0;
+}   
 
 .description-product {
 	width: 400px;
-	margin-left: 60px;
-	float: left;
+    float: right;
+	
 }
 
