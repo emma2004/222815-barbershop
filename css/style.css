@@ -106,6 +106,15 @@ li {
 	height: 165px;
 }
 
+.price {
+	display: inline-block;
+}
+
+.block {
+	display: block;
+	width: 160px;
+}
+
 .catalog-transition {
 	width: 220px;
 	margin-left: 240px;
